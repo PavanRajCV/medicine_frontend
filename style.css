@@ -1,0 +1,140 @@
+
+body{
+    background-image: url("https://shorturl.at/oFNUY");
+    background-size: cover;
+    font-family: sans-serif;
+   
+}
+/* Implementing Menu bar */
+.menu{
+   background-color: rgb(0,100,0);
+   text-align: center; 
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color:#fff;
+}
+.menu ul li{
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu ul li a{
+    text-decoration: double;
+    color: #fff;
+}
+.active, .menu ul li:hover{
+    background: #2bab0d;
+    border-radius:3px;
+}
+/* second page table implement */
+.table_entry{
+    width:600px;
+    height:300px;
+    background: #0b0b0ca6;
+    border: 2px solid rgba(255,255,255,2);
+    backdrop-filter:blur(20px);
+    border-radius: 40px;
+    color:#fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+.table_entry h1{
+    font-size: 45px;
+    text-align: center;
+    
+}
+
+.autocomplete input{
+    width:110%;
+    height:50px;
+    margin:5px 0;
+    width:60%;
+    height:15%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color:#fff;
+    padding: 20px 45px 20px 20px;
+}
+.autocomplete input::placeholder{
+    color:#fff;
+}
+.table_entry button{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    font-size: 20px;
+    color: blue;
+    font-weight: 1000;
+}
+/* input box label name */
+label{
+    font-size: medium;
+    font-style: bold;
+}
+
+/* first page implement */
+.h11{
+    text-align: left;
+    font-size: larger;
+    color: black;
+    font-style: oblique;
+}
+.content{
+    font-style: oblique;
+    font-size: medium;
+    background:#e1dbdb7d;
+}
+.content h2,h3,ol,ul{
+    text-align: left;
+}
+/* scroll down */
+
+.autocomplete {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #illnessInput {
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .suggestions {
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color:black;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .suggestions ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .suggestions li {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .suggestions li:hover {
+    background-color:burlywood;
+  }
+  

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GOVERMENT SERVICE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://shorturl.at/glHL6">
+
+    </head>
+    <body >
+<!-- Menu Bar -->
+        <div class="menu">
+        <ul>
+            <li ><i class="fa fa-home"></i><a href="index.html"> HOME</a></li>
+            <li class="active"><i class="fa fa-search"></i> SEARCH</a></li>
+            <li><a href="http://maps.google.com/maps?q=near_by_hospital"><i class="fa fa-google"></i> NEAR HOSPITAL</a></li>
+        </ul></div>
+<!-- headind -->
+       <center> <table>
+            <tr>
+                 <td><img src="https://shorturl.at/pvzVZ" height="100" width="100"></td>
+                <td><h1><b>Welcome To Medicine Guider</b></h1></td>
+            </tr>
+        </table>
+<!-- Input Table -->
+        <div class="table_entry">
+            
+                <h1>Enter the symptoms</h1>
+                <form id="illnessForm"
+                 <label for="illnessInput">Enter an illness:</label>
+                 <div class="autocomplete">
+                    <input type="text" id="illnessInput" placeholder="select an illness">
+                    <div id="suggestionList" class="suggestions"></div>
+                  </div>
+                
+                <div>
+                    <button type="button" id="submitButton">SUBMIT</button>
+                </div>
+                </form>
+                <p id="medicineRecommendation"></p>
+        </div><script src="script.js"></script>
+        
+        
+    </body>
+</html>
